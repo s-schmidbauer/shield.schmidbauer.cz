@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>schmidbauer.cz - IT consulting and services</title>
+  <meta name="description" content="Secure Cloud, Mail and more services in Czechia">
+  <meta name="author" content="Stefan Schmidbauer">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="css/raleway.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#services">Services</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#security">Security</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="https://www.schmidbauer.cz/#contact">Contact</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://vpn.schmidbauer.cz" target="_blank">VPN</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://cloud.schmidbauer.cz" target="_blank">Cloud</a></li>
+        <li class="navbar-item-special"><a class="navbar-link-special" href="https://mail.schmidbauer.cz" target="_blank">Mail</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="intro-small">
+      <h3 class="intro-logo">schmidbauer</h3>
+      <h6 class="intro-header">IT consulting & services</h6>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">Shield</h2>
+      <h5 class="services-security-description">Protect your site. Easy.</h5>
+      <hr>
+      <form action="https://formspree.io/myyekgan" method="POST">
+        <label>Your Website: <input type="site" name="_site" maxlength="40" size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
+        <label>Your Email: <input type="email" name="_email" maxlength="40" size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
+        <label for="profile">Shield profile: </label>
+        <select id="profiles" name="profiles">
+          <option value="http-1">HTTP - 1</option>
+          <option value="http-2">HTTP - 2</option>
+          <option value="https-1">HTTPS - 1</option>
+          <option value="https-2">HTTPS - 2</option>
+          <option value="https-3">HTTPS - 3</option>
+          <option value="https-3">HTTPS - 4</option>
+        </select>
+        <p>Shield is free. For advanced uses, use <strong>Pro Shield</strong></p>
+        <button type="submit" name="free" value="free">Sign up for free</button>
+    </div>
+  </div>
+
+  <div class="section-small services" id="services">
+    <div class="container">
+      <h2 class="services-security-header">How it works</h2>
+      <hr>
+      <ul class="services-security">
+        <li>You receive an email after signing up containing all information needed</li>
+        <li>Open <pre>shield name</pre> in a browser. Test if your site works. Issues? Contact us</li>
+        <li>Ready to go live?</li>
+        <li>Login to your site DNS provider. You find the company in the mail we sent you</li>
+        <li>Change the main DNS record (type <pre>AAAA</pre>) to your domain. Use the <pre>shield address</pre> you received</li>
+        <li>To test, set the TTL (time-to-live) value of the DNS record to 5 minutes</li>
+        <li>Save the settings. Wait 5 minutes</li>
+        <li>Test your site by browsing to your website</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-small security" id="contact">
+    <div class="container">
+      <h2 class="services-security-header">Need help?</h2>
+      <h5 class="services-security-description">Contact us</h5>
+      <hr>
+      <p>Just <a href="https://www.schmidbauer.cz/#contact">contact</a> us by Phone, Email, WhatsApp ..</p>
+    </div>
+  </div>
+
+</body>
+</html>
